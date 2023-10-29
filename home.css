@@ -1,0 +1,91 @@
+#well1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    margin-left: 9rem;
+    margin-top: 6rem;
+    height: 38rem;
+    width: 21rem;
+    border-style: solid;
+    border-color: grey;
+}
+#guns1{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    height:23rem;
+    width: 18rem;
+    border-radius: 2%;
+}
+#well2{
+    background-color: rgb(252, 252, 252);
+    border-radius: 2%;
+    margin-left: 34rem;
+    margin-top: -38.35rem;
+    height: 38rem;
+    width: 21rem;
+    border-style: solid;
+    border-color: grey;
+}
+#guns2{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    height:23rem;
+    width: 18rem;
+    border-radius: 2%;
+}
+#well3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    margin-left: 59rem;
+    margin-top: -38.45rem;
+    height: 38rem;
+    width: 21rem;
+    border-style: solid;
+    border-color: grey;
+}
+#guns3{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    height:23rem;
+    width: 18rem;
+    border-radius: 2%;
+}
+#well4{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    margin-left: 84rem;
+    margin-top: -38.45rem;
+    height: 38rem;
+    width: 21rem;
+    border-style: solid;
+    border-color: grey;
+}
+#guns4{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    height:23rem;
+    width: 18rem;
+    border-radius: 2%;
+}
+#well1:hover{
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.6s;
+}
+#well2:hover{
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.6s;
+}
+#well3:hover{
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.6s;
+}
+#well4:hover{
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.6s;
+}
+.text1{
+    margin-left: 2rem;
+}

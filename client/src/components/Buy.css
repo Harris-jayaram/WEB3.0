@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+.center {
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+  background: #fff; /* SOCIALIVE COLOR gradient background */
+  border: 2px solid #FF8668; /* Border color */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.center h1 {
+  font-size: 2.5em;
+ /* Gradient text background */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000; /* Black text color */
+}
+
+.center .inputbox {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.center .inputbox input {
+  width: 100%;
+  border: 2px solid #000; /* Black border */
+  outline: none;
+  background: transparent;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  transition: border-color 0.3s, transform 0.3s;
+  color: #000; /* Black text color */
+  font-weight: bold; /* Bold text */
+}
+
+.center .inputbox input:focus,
+.center .inputbox input:valid {
+  border-color: #FF8668; /* Highlighted border color */
+}
+
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1.5em;
+  transition: 0.3s;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000; /* Black text color */
+  font-weight: bold; /* Bold text */
+}
+
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span {
+  transform: translateX(-12px) translateY(-35px);
+  font-size: 1em;
+  color: #000; /* Highlighted text color */
+}
+
+.center .inputbox [type="submit"] {
+  width: 40%;
+  background: #000; /* SOCIALIVE COLOR button color */
+  color: #fff;
+  border: none;
+  font-size: 1.3em;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.center .inputbox [type="submit"]:hover {
+  background: #000; /* Hover color */
+}
